@@ -10,6 +10,8 @@ function onSubmit(e) {
       [currentPassword.name]: currentPassword.value,
     };
     console.log(info);
+    currentEmail.value = "";
+    currentPassword.value = "";
   } else {
     alert("Всі поля повинні бути заповнені!");
   }
